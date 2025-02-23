@@ -6,7 +6,6 @@ import Link from 'next/link';
 export default function Productcard(props:any) {
     var prod = props.product;
     console.log("data  "+prod);
-    debugger
     
   
   return (
@@ -14,8 +13,8 @@ export default function Productcard(props:any) {
 <Link href={'/Products/'+prod.documentId}>
 <div className={styles.box}>
   <div>
-    {prod.Image.map((image:any, index:any) => (
-      <img src={"http://localhost:1337"+image.formats?.thumbnail.url} key={index} height="250px" width="150px" alt="productimage" />
+    {prod.Image?.map((image:any, index:any) => (
+      <img src={"https://secure-creativity-35fee2e16d.strapiapp.com/"+image.formats?.thumbnail.url} key={index} height="250px" width="150px" alt="productimage" />
     ))}
   </div> 
   <div>

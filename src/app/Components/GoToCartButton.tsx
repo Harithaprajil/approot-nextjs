@@ -5,8 +5,11 @@ import { useCart } from '../context/CartContext';
 interface GoToCartButtonProps {
     product: {
         id: number;
-        name: string;
-        price: number;
+        Title: string; 
+        Price: number;
+        Image: any;
+        quantity: number;
+        index:any;
     };
 }
 

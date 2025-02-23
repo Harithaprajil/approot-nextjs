@@ -8,7 +8,7 @@ interface CartItem {
     Price: number;
     Image: any;
     quantity: number;
-    index:any
+    index:any;
 }
 
 // Define the context type

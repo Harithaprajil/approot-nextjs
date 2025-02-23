@@ -1,4 +1,4 @@
-// File: C:\work space\nextjs practice\next-ecommerceapp\src\app\Cart\page.tsx
+// File: C:\work space\nextjs practice\nexjs-app\approute-app\src\app\Cart\page.tsx
 import * as entry from '../../../../src/app/Cart/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
