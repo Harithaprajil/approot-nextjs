@@ -1,0 +1,28 @@
+.content {
+    display: flex;
+    flex:1;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction:row;
+
+}
+.box {
+    width: 400px;
+    height: 450px;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .flex-column {
+    flex: 0 0 33.3333%;
+  }
+
+  .text {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
