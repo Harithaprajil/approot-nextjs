@@ -26,7 +26,7 @@ export default async function ProductDetail(props:any) {
         <div className={prostyle.prodetail}>
         <div className={prostyle.prodetailtable1}>
         {prod.Image?.map((image:any, index:any) => (
-          <img src={"https://secure-creativity-35fee2e16d.strapiapp.com/"+image.formats?.thumbnail.url} key={index} height="250px" width="150px" alt="productimage" />
+          <img src={image.formats?.thumbnail.url} key={index} height="250px" width="150px" alt="productimage" />
          ))}
         </div>
         <div className={prostyle.prodetailtable2}>
