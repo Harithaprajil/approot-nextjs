@@ -25,7 +25,7 @@ export default function CartPage() {
 
                 <div>
     {item.Image?.map((image:any, index:any) => (
-      <img src={"https://secure-creativity-35fee2e16d.strapiapp.com"+image.formats?.thumbnail.url} key={index} height="250px"  alt="productimage" />
+      <img src={image.formats?.thumbnail.url} key={index} height="250px"  alt="productimage" />
     ))}
   </div> 
               </div>

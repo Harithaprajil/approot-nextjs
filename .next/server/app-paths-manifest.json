@@ -1,11 +1,11 @@
 {
   "/_not-found": "app/_not-found.js",
-  "/Products/[productId]/page": "app/Products/[productId]/page.js",
+  "/AboutUs/page": "app/AboutUs/page.js",
   "/Cart/page": "app/Cart/page.js",
   "/api/products/route": "app/api/products/route.js",
-  "/api/products/[id]/route": "app/api/products/[id]/route.js",
-  "/AboutUs/page": "app/AboutUs/page.js",
   "/page": "app/page.js",
+  "/Products/[productId]/page": "app/Products/[productId]/page.js",
+  "/api/products/[id]/route": "app/api/products/[id]/route.js",
   "/Products/page": "app/Products/page.js",
   "/ContactUs/page": "app/ContactUs/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js"
