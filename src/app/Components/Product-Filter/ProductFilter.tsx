@@ -13,7 +13,7 @@ export default function ProductFilter() {
 
   const [price, setPrice] = useState(currentPrice);
 
-  const updateFilters = (Category?: string, Price?: string) => {
+  const updateFilters = (Category?: string, Price?: string, search?: string) => {
     const params = new URLSearchParams(searchParams.toString());
 
     if (Category !== undefined) {
@@ -32,8 +32,12 @@ export default function ProductFilter() {
       }
     }
 
+    
+
     router.push(`/Products?${params.toString()}`);
   };
+
+
 
   return (
     <div className="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">

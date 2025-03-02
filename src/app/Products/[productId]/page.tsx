@@ -14,11 +14,8 @@ export default async function ProductDetail(props:any) {
   if(productId){
     var Product = await ProductService.getProductById (productId);
     var prod = Product.data;
-    debugger
     console.log("ProductPData"+JSON.stringify(prod))
-    debugger
   }
-  debugger
 
  
   return (

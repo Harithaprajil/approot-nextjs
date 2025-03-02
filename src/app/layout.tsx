@@ -20,8 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        
+        <CartProvider>
         <Header/>
-        <CartProvider>{children}</CartProvider>
+          {children}</CartProvider>
 </body>
     </html>
   )

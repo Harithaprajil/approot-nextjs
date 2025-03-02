@@ -28,7 +28,7 @@ export default function GoToCartButton({ product }: GoToCartButtonProps) {
             className="px-4 py-2 bg-blue-500 text-black rounded-md hover:bg-blue-600 transition-all"
             aria-label="Go to Cart"
         >
-            Go To Cart
+            Add To Cart
         </button>
     );
 }
